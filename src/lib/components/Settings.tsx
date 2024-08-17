@@ -1,4 +1,5 @@
 import { FC, ReactNode, useState } from 'react';
+import Link from 'next/link';
 import Section from './Section';
 import Title from './Title';
 import styles from './styles/Settings.module.scss';
@@ -49,7 +50,7 @@ const Settings: FC<Props> = ({ onClose }) => {
           }
           if (option?.url) {
             return (
-              <a
+              <Link
                 key={index}
                 className={styles.settingsOption}
                 onClick={onClose}
@@ -64,7 +65,7 @@ const Settings: FC<Props> = ({ onClose }) => {
                     fill="black"
                   />
                 </svg>
-              </a>
+              </Link>
             );
           }
         })}

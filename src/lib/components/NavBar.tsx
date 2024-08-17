@@ -1,5 +1,6 @@
 "use client";
 import { FC, useState, useEffect } from 'react';
+import Link from 'next/link';
 import Section from './Section';
 import Modal from './Modal';
 import Settings from './Settings';
@@ -35,9 +36,9 @@ const NavBar: FC<Props> = ({ options }) => {
       >
         {options.map((option, index) => {
           return (
-            <a key={index} className={styles.navLink} href={option.url}>
+            <Link key={index} className={styles.navLink} href={option.url}>
               {option.label}
-            </a>
+            </Link>
           );
         })}
         <a
