@@ -10,7 +10,7 @@ Note that it is a work in progress and some things may break down on the mobile 
 
 > **[www.ben-caro.com](https://www.ben-caro.com)**
 
-> *Note the website is currently running sans Next.js, just React currently.
+> *Note the website is currently running sans Next.js, just plain React.
 
 ## Technologies Used
 
