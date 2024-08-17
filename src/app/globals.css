@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-bg-color: #111111;
+  --secondary-bg-color: #333333;
+  --primary-accent-color: #c56d00;
+  --secondary-accent-color: #3034d2;
+}
+
+#root {
+  height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  z-index: 1000;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(155, 155, 155);
+  border-radius: 20px;
+  z-index: 1000;
+}
